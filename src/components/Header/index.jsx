@@ -8,7 +8,7 @@ export default function Header() {
             </div>
             <nav className="flex gap-8">
                 <a href="/" className="font-bold">Home</a>
-                <a href="/">Projects</a>
+                <a href="/projects">Projects</a>
                 <a href="/">Experience</a>
                 <a href="/">Education</a>
                 <a href="/">Contact</a>

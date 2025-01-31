@@ -10,8 +10,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandCSharp } from "react-icons/tb";
 import { SiDotnet } from "react-icons/si";
 
-
-export default function Content() {
+export default function HomeContent() {
     return (
         <div className="px-36 bg-cyan-50 w-full h-full">
             <Header />
@@ -41,7 +40,7 @@ export default function Content() {
                     </div>
                 </div>
                 
-                <div className="w-full mt-80">
+                <div className="w-full mt-28">
                     <div className="flex flex-col items-center w-full">
                         <h1 className="text-5xl font-semibold text-blue-950">O que eu faço?</h1>
                     </div>
@@ -54,37 +53,45 @@ export default function Content() {
 
                         {/* Right Card */}
                         <div className="w-[55%]">
-                            <h2 className="text-3xl font-semibold text-blue-950 text-center">Desenvolvimento Fullstack</h2>
+                            <h2 className="text-4xl font-semibold text-blue-950 text-center">Desenvolvimento Fullstack</h2>
 
                             {/* Icons */}
-                            <div className="mt-6 flex gap-4 items-center">
-                                <div className="p-2 bg-slate-600 rounded-full">
-                                    <FaHtml5 className="w-10 h-10"/>
+                            <div className="mt-6 flex flex-wrap gap-x-4 gap-y-8 items-center justify-center">
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <FaHtml5 className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-2 bg-slate-600 rounded-full">
-                                    <FaCss3 className="w-10 h-10"/>
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <FaCss3 className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-2 bg-slate-600 rounded-full">
-                                    <IoLogoJavascript className="w-10 h-10"/>
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <IoLogoJavascript className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-2 bg-slate-600 rounded-full">
-                                    <RiTailwindCssFill className="w-10 h-10"/>
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <RiTailwindCssFill className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-2 bg-slate-600 rounded-full">
-                                    <TbBrandCSharp className="w-10 h-10"/>
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <TbBrandCSharp className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-2 bg-slate-600 rounded-full">
-                                    <SiDotnet className="w-10 h-10"/>
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <SiDotnet className="w-8 h-8" color="white"/>
+                                </div>
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <SiDotnet className="w-8 h-8" color="white"/>
+                                </div>
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <SiDotnet className="w-8 h-8" color="white"/>
+                                </div>
+                                <div className="p-4 bg-slate-600 rounded-full">
+                                    <SiDotnet className="w-8 h-8" color="white"/>
                                 </div>
                             </div>
 
                             <div className="mt-8">
-                                <h3>Icon Lorem ipsum dolor sit amet.</h3>
-                                <h3>Icon Lorem ipsum dolor sit amet.</h3>
-                                <h3>Icon Lorem ipsum dolor sit amet.</h3>
-                                <h3>Icon Lorem ipsum dolor sit amet.</h3>
-                            </div>
-                            
+                                <h3 className="text-3xl text-gray-400">● Icon Lorem ipsum dolor sit amet.</h3>
+                                <h3 className="text-3xl text-gray-400">● Icon Lorem ipsum dolor sit amet.</h3>
+                                <h3 className="text-3xl text-gray-400">● Icon Lorem ipsum dolor sit amet.</h3>
+                                <h3 className="text-3xl text-gray-400">● Icon Lorem ipsum dolor sit amet.</h3>
+                            </div>      
                         </div>
                     </div>
 
