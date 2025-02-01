@@ -1,10 +1,11 @@
 import Header from "@/components/Header";
 import Image from "next/image";
 import ProjectsImage from "@/assets/projects-image.png"
+import LandingPage from "@/assets/website-landing-page.jpeg"
 
 export default function ProjectsContent() {
     return (
-        <div className="px-36 bg-cyan-50 w-full h-screen">
+        <div className="px-36 bg-cyan-50 w-full h-full">
             <Header />
 
             <main className="mt-16">
@@ -26,43 +27,72 @@ export default function ProjectsContent() {
                     </div>
                 </div>
 
-                <div className="mt-14">
+                <div className="mt-14 mb-14">
                     <h2 className="text-center text-blue-950 text-6xl font-semibold">My Projects</h2>
 
                     {/* Projects Section*/}
-                    <div className="mt-12 flex gap-6 justify-center">
+                    <div className="mt-12 flex flex-wrap gap-3 items-start">
                         {/* Projects Cards*/}
-                        <div className="rounded-lg border">
+                        <div className="rounded-lg border w-[520px]">
                             <div className="w-full">
-                                imagem
+                                <Image src={LandingPage} className="object-cover"/>
                             </div>
 
-                            <div className="w-full h-[50%] p-4">
-                                <h2>Lorem, ipsum dolor.</h2>
-                                <h3>React Js | React Js | React Js</h3>
+                            <div className="p-4">
+                                <h2 className="text-center font-semibold text-2xl">Lorem, ipsum.</h2>
+                                
+                                <h3 className="text-center mt-2 text-gray-500 text-xl">Lorem ipsum dolor sit amet.</h3>
 
-                                <h2>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                </h2>
-                            </div>
-                        </div>
-                        <div className="rounded-lg border">
-                            <div className="w-full">
-                                imagem
-                            </div>
-
-                            <div className="w-full h-[50%] p-4">
-                                <h2>Lorem, ipsum dolor.</h2>
-                                <h3>React Js | React Js | React Js</h3>
-
-                                <h2>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                </h2>
-                            </div>
-                        </div>
+                                <h2 className="mt-2 text-2xl font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!</h2>
                         
+                                <div className="flex justify-between mt-4">
+                                    <a href="" className="text-blue-500 text-xl">Visit</a>
+                                    <span className="text-xl">2024</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="rounded-lg border w-[520px]">
+                            <div>
+                                <Image src={LandingPage} className="object-cover"/>
+                            </div>
+
+                            <div className="p-4">
+                                <h2 className="text-center font-semibold text-2xl">Lorem, ipsum.</h2>
+                                
+                                <h3 className="text-center mt-2 text-gray-500 text-xl">Lorem ipsum dolor sit amet.</h3>
+
+                                <h2 className="mt-2 text-2xl font-light">Lorem ipsum dolor sit.</h2>
+                        
+                                <div className="flex justify-between mt-4">
+                                    <a href="" className="text-blue-500 text-xl">Visit </a>
+                                    <span className="text-xl">2024</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="rounded-lg border w-[520px]">
+                            <div>
+                                <Image src={LandingPage} className="object-cover"/>
+                            </div>
+
+                            <div className="p-4">
+                                <h2 className="text-center font-semibold text-2xl">Lorem, ipsum.</h2>
+                                
+                                <h3 className="text-center mt-2 text-gray-500 text-xl">Lorem ipsum dolor sit amet.</h3>
+
+                                <h2 className="mt-2 text-2xl font-light">Lorem ipsum dolor sit.</h2>
+                        
+                                <div className="flex justify-between mt-4">
+                                    <a href="" className="text-blue-500 text-xl">Visit </a>
+                                    <span className="text-xl">2024</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
             </main>
         </div>
     )

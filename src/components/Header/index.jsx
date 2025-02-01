@@ -9,9 +9,8 @@ export default function Header() {
             <nav className="flex gap-8">
                 <a href="/" className="font-bold">Home</a>
                 <a href="/projects">Projects</a>
-                <a href="/">Experience</a>
-                <a href="/">Education</a>
-                <a href="/">Contact</a>
+                <a href="/education">Education</a>
+                <a href="/contact">Contact</a>
             </nav>
 
             <button className="flex items-center gap-4 border rounded-lg px-4 py-2">
