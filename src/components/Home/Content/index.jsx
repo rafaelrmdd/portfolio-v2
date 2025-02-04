@@ -11,17 +11,18 @@ import { TbBrandCSharp } from "react-icons/tb";
 import { SiDotnet } from "react-icons/si";
 
 export default function HomeContent() {
+
     return (
         <div className="px-36 bg-cyan-50 w-full h-full">
             <Header />
 
-            <main className="mt-16">
-                <div className="flex justify-between">
+            <main className="mt-20 pb-16">
+                <div className="flex">
                     {/* Left Card  */}
                     <div className="w-[45%] flex flex-col gap-y-4">
-                        <h1 className="text-5xl font-semibold text-blue-950">Rafael Rodrigues</h1>
-                        <h2 className="text-3xl font-semibold text-blue-950">( Web Development | API Development | Freelancing )</h2>
-                        <h3 className="text-xl font-semibold text-gray-400 leading-[45px]">
+                        <h1 className="text-5xl font-bold text-blue-900">Rafael Rodrigues</h1>
+                        <h2 className="text-4xl font-semibold text-blue-900">Full Stack Development </h2>
+                        <h3 className="text-xl font-semibold text-blue-500 leading-[45px]">
                             A results-driven software engineer with expertise in full-stack development
                             of high-quality user-centric solutions in agile environments.
                         </h3>
@@ -31,29 +32,33 @@ export default function HomeContent() {
                             <a href="/"> <FaGithub className="w-10 h-10" /> </a>
                             <a href="/"> <FaLinkedin className="w-10 h-10" /> </a>
                             <a href="mailto:rrodriguesmd17@gmail.com"> <MdEmail className="w-12 h-12" /> </a>
-                        </div>
+                        </div>  
                     </div>
 
                     {/* Right Card */}
-                    <div className="w-[45%] mb-[-50px]">
-                        <Image src={ImagemTeste} alt="teste" className="w-full h-96"/>
+                    <div className="w-[55%]">
+                        <Image 
+                        src={ImagemTeste} 
+                        alt="teste" 
+                        className="w-[650px] h-[650px] absolute top-[-50px] right-[65px]"
+                    />
                     </div>
                 </div>
                 
-                <div className="w-full mt-28">
+                <div className="w-full mt-36">
                     <div className="flex flex-col items-center w-full">
-                        <h1 className="text-5xl font-semibold text-blue-950">O que eu faço?</h1>
+                        <h1 className="text-5xl font-semibold text-blue-900">O que eu faço?</h1>
                     </div>
                     
                     <div className="flex justify-between mt-24">
                         {/* Left Card */}
-                        <div className="w-[40%]">
-                            <Image src={WhatIDoCardImage} alt="teste" className="w-full "/>
+                        <div className="w-[40%] flex justify-center">
+                            <Image src={WhatIDoCardImage} alt="teste" className="object-scale-down "/>
                         </div>
 
                         {/* Right Card */}
                         <div className="w-[55%]">
-                            <h2 className="text-4xl font-semibold text-blue-950 text-center">Desenvolvimento Fullstack</h2>
+                            <h2 className="text-4xl font-semibold text-blue-900 text-center">Desenvolvimento Fullstack</h2>
 
                             {/* Icons */}
                             <div className="mt-6 flex flex-wrap gap-x-4 gap-y-8 items-center justify-center">
@@ -87,10 +92,11 @@ export default function HomeContent() {
                             </div>
 
                             <div className="mt-8">
-                                <h3 className="text-3xl text-gray-400">● Icon Lorem ipsum dolor sit amet.</h3>
-                                <h3 className="text-3xl text-gray-400">● Icon Lorem ipsum dolor sit amet.</h3>
-                                <h3 className="text-3xl text-gray-400">● Icon Lorem ipsum dolor sit amet.</h3>
-                                <h3 className="text-3xl text-gray-400">● Icon Lorem ipsum dolor sit amet.</h3>
+                                <h3 className="text-xl text-blue-500 ">● Especialista em desenvolvimento web full stack com foco em C# (.NET Core), criando APIs RESTful robustas utilizando Entity Framework e PostgreSQL</h3>
+                                <h3 className="text-xl text-blue-500 ">● Construção de interfaces modernas e responsivas com React e Next.js, entregando experiências de usuário fluidas e performáticas</h3>
+                                <h3 className="text-xl text-blue-500 ">● Desenvolvedor proativo que constantemente expande conhecimentos através de projetos pessoais e experimentação de novas tecnologias</h3>
+                                <h3 className="text-xl text-blue-500 ">● Domínio em desenvolvimento de sistemas web, com ênfase em soluções escaláveis e arquiteturas modernas</h3>
+                                <h3 className="text-xl text-blue-500 ">● Criação de aplicações end-to-end, integrando back-end robusto com front-end dinâmico e intuitivo</h3>
                             </div>      
                         </div>
                     </div>

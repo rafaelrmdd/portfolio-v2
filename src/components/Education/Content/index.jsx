@@ -37,7 +37,7 @@ export default function Content() {
                     </div>
 
                     <div className="w-[50%] flex justify-center items-center">
-                        <h1 className="text-center text-blue-950 text-6xl font-semibold">Formação e Certificações</h1>
+                        <h1 className="text-center text-blue-900 text-6xl font-semibold">Formação e Certificações</h1>
                     </div>
                 </div>
 
