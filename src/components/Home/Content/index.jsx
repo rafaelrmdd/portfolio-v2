@@ -29,9 +29,17 @@ export default function HomeContent() {
                         
                         {/* Redirect Icons */}
                         <div className="flex gap-4 items-center">
-                            <a href="/"> <FaGithub className="w-10 h-10" /> </a>
-                            <a href="/"> <FaLinkedin className="w-10 h-10" /> </a>
-                            <a href="mailto:rrodriguesmd17@gmail.com"> <MdEmail className="w-12 h-12" /> </a>
+                            <a href="https://github.com/rafaelrmdd" target="_blank">
+                                <FaGithub className="w-10 h-10" /> 
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/rafaelrmd/" target="_blank">
+                                <FaLinkedin className="w-10 h-10" /> 
+                            </a>
+
+                            <a href="mailto:rrodriguesmd17@gmail.com">
+                                <MdEmail className="w-12 h-12" /> 
+                            </a>
                         </div>  
                     </div>
 

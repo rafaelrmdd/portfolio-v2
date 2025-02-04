@@ -9,7 +9,7 @@ export default function Header() {
 
             <nav className="flex gap-8">
                 <a 
-                    href="/" 
+                    href="/"
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
                     Home
