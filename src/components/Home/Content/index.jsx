@@ -34,16 +34,27 @@ export default function HomeContent() {
                         
                         {/* Redirect Icons */}
                         <div className="flex gap-4 items-center">
-                            <a href="https://github.com/rafaelrmdd" target="_blank">
-                                <FaGithub className="w-10 h-10" /> 
+                            <a 
+                                href="https://github.com/rafaelrmdd" 
+                                target="_blank" 
+                                className="p-4 rounded-full bg-black hover:bg-slate-800"
+                            >
+                                <FaGithub className="w-8 h-8" color="white"/> 
                             </a>
 
-                            <a href="https://www.linkedin.com/in/rafaelrmd/" target="_blank">
-                                <FaLinkedin className="w-10 h-10" /> 
+                            <a 
+                                href="https://www.linkedin.com/in/rafaelrmd/" 
+                                target="_blank"
+                                className="p-4 rounded-full bg-blue-700 hover:bg-blue-600"
+                            >
+                                <FaLinkedin className="w-8 h-8" color="white"/> 
                             </a>
 
-                            <a href="mailto:rrodriguesmd17@gmail.com">
-                                <MdEmail className="w-12 h-12" /> 
+                            <a 
+                                href="mailto:rrodriguesmd17@gmail.com"
+                                className="p-4 rounded-full bg-red-600 hover:bg-red-500"
+                            >
+                                <MdEmail className="w-8 h-8" color="white" /> 
                             </a>
                         </div>  
                     </div>
