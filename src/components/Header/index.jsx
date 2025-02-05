@@ -37,12 +37,15 @@ export default function Header() {
                     </a>
             </nav>
 
-            <button 
-                className="flex items-center gap-4 border border-blue-900 rounded-lg px-4 py-2 text-blue-900"
+            <a
+                href="/Currículo FS.pdf"
+                download="Currículo Rafael R"
+                className="flex items-center gap-4 border border-blue-900 rounded-lg px-4 py-2 text-blue-900
+                hover:bg-blue-900 hover:text-white duration-300"
             >
-                Resume
+                Currículo
                 <IoMdDownload className="w-5 h-5"/>
-            </button>
+            </a>
         </header>
     )
 }

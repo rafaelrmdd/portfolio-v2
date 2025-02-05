@@ -9,6 +9,11 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandCSharp } from "react-icons/tb";
 import { SiDotnet } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
+import { SiSqlite } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiVite } from "react-icons/si";
 
 export default function HomeContent() {
 
@@ -47,7 +52,7 @@ export default function HomeContent() {
                     <div className="w-[55%]">
                         <Image 
                         src={ImagemTeste} 
-                        alt="teste" 
+                        alt="Guy sitting on a chair" 
                         className="w-[650px] h-[650px] absolute top-[-50px] right-[65px]"
                     />
                     </div>
@@ -61,7 +66,7 @@ export default function HomeContent() {
                     <div className="flex justify-between mt-24">
                         {/* Left Card */}
                         <div className="w-[40%] flex justify-center">
-                            <Image src={WhatIDoCardImage} alt="teste" className="object-scale-down "/>
+                            <Image src={WhatIDoCardImage} alt="Full Stack representation" className="object-scale-down "/>
                         </div>
 
                         {/* Right Card */}
@@ -69,42 +74,48 @@ export default function HomeContent() {
                             <h2 className="text-4xl font-semibold text-blue-900 text-center">Desenvolvimento Fullstack</h2>
 
                             {/* Icons */}
-                            <div className="mt-6 flex flex-wrap gap-x-4 gap-y-8 items-center justify-center">
-                                <div className="p-4 bg-slate-600 rounded-full">
+                            <div className="mt-6 flex flex-wrap gap-x-4 gap-y-4 items-center justify-center">
+                                <div className="p-4 bg-orange-400 rounded-full">
                                     <FaHtml5 className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-4 bg-slate-600 rounded-full">
+                                <div className="p-4 bg-blue-400 rounded-full">
                                     <FaCss3 className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-4 bg-slate-600 rounded-full">
+                                <div className="p-4 bg-yellow-400 rounded-full">
                                     <IoLogoJavascript className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-4 bg-slate-600 rounded-full">
+                                <div className="p-4 bg-teal-400 rounded-full">
                                     <RiTailwindCssFill className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-4 bg-slate-600 rounded-full">
+                                <div className="p-4 bg-purple-700 rounded-full">
                                     <TbBrandCSharp className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-4 bg-slate-600 rounded-full">
+                                <div className="p-4 bg-blue-800 rounded-full">
                                     <SiDotnet className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-4 bg-slate-600 rounded-full">
-                                    <SiDotnet className="w-8 h-8" color="white"/>
+                                <div className="p-4 bg-indigo-700 rounded-full">
+                                    <BiLogoPostgresql className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-4 bg-slate-600 rounded-full">
-                                    <SiDotnet className="w-8 h-8" color="white"/>
+                                <div className="p-4 bg-gray-400 rounded-full">
+                                    <GrMysql className="w-8 h-8" color="white"/>
                                 </div>
-                                <div className="p-4 bg-slate-600 rounded-full">
-                                    <SiDotnet className="w-8 h-8" color="white"/>
+                                <div className="p-4 bg-orange-600 rounded-full">
+                                    <SiSqlite className="w-8 h-8" color="white"/>
+                                </div>
+                                <div className="p-4 bg-black rounded-full">
+                                    <SiNextdotjs className="w-8 h-8" color="white"/>
+                                </div>
+                                <div className="p-4 bg-purple-500 rounded-full">
+                                    <SiVite className="w-8 h-8" color="white"/>
                                 </div>
                             </div>
 
-                            <div className="mt-8">
-                                <h3 className="text-xl text-blue-500 ">● Especialista em desenvolvimento web full stack com foco em C# (.NET Core), criando APIs RESTful robustas utilizando Entity Framework e PostgreSQL</h3>
-                                <h3 className="text-xl text-blue-500 ">● Construção de interfaces modernas e responsivas com React e Next.js, entregando experiências de usuário fluidas e performáticas</h3>
-                                <h3 className="text-xl text-blue-500 ">● Desenvolvedor proativo que constantemente expande conhecimentos através de projetos pessoais e experimentação de novas tecnologias</h3>
-                                <h3 className="text-xl text-blue-500 ">● Domínio em desenvolvimento de sistemas web, com ênfase em soluções escaláveis e arquiteturas modernas</h3>
-                                <h3 className="text-xl text-blue-500 ">● Criação de aplicações end-to-end, integrando back-end robusto com front-end dinâmico e intuitivo</h3>
+                            <div className="flex flex-col gap-y-4 mt-8">
+                                <h3 className="text-xl text-blue-500 ">● Especialista em desenvolvimento web full stack com foco em C# (.NET Core), criando APIs RESTful robustas utilizando Entity Framework e PostgreSQL;</h3>
+                                <h3 className="text-xl text-blue-500 ">● Construção de interfaces modernas e responsivas com React e Next.js, entregando experiências de usuário fluidas e performáticas;</h3>
+                                <h3 className="text-xl text-blue-500 ">● Desenvolvedor proativo que constantemente expande conhecimentos através de projetos pessoais e experimentação de novas tecnologias;</h3>
+                                <h3 className="text-xl text-blue-500 ">● Domínio em desenvolvimento de sistemas web, com ênfase em soluções escaláveis e arquiteturas modernas;</h3>
+                                <h3 className="text-xl text-blue-500 ">● Criação de aplicações end-to-end, integrando back-end robusto com front-end dinâmico e intuitivo.</h3>
                             </div>      
                         </div>
                     </div>
