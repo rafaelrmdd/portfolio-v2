@@ -1,9 +1,50 @@
 import Header from "@/components/Header";
 import Image from "next/image";
 import ProjectsImage from "@/assets/projects-image.png"
-import LandingPage from "@/assets/website-landing-page.jpeg"
+import enterprise_task_manager from "@/assets/enterprise-task-management-landing-page.jpeg"
+import r_crypto from "@/assets/r-crypto.jpeg"
+import r_burger from "@/assets/r-burger.jpeg"
+import r_money from "@/assets/r-money.jpeg"
+import ProjectItem from "../ProjectItem";
+
 
 export default function ProjectsContent() {
+
+    const projects = {
+        enterprise_task_manager: {
+            image: enterprise_task_manager,
+            title: "Enterprise Task Manager",
+            technologies: "??? | ??? | ???",
+            url: "https://enterprise-task-manager.netlify.app/",
+            yearOfDevelopment: "2024",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!"
+        },
+        r_crypto: {
+            image: r_crypto,
+            title: "rCrypto",
+            technologies: "??? | ??? | ???",
+            url: "https://rcrypto.netlify.app/",
+            yearOfDevelopment: "2024",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!"
+        },
+        r_burger: {
+            image: r_burger,
+            title: "rBurger",
+            technologies: "??? | ??? | ???",
+            url: "https://r-burger-shop.netlify.app/",
+            yearOfDevelopment: "2024",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!"
+        },
+        r_money: {
+            image: r_money,
+            title: "Money Control",
+            technologies: "??? | ??? | ???",
+            url: "https://controlmoneyy.netlify.app/",
+            yearOfDevelopment: "2024",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!"
+        }
+    }
+
     return (
         <div className="px-36 bg-cyan-50 w-full h-full">
             <Header />
@@ -12,7 +53,13 @@ export default function ProjectsContent() {
                 <div className="flex justify-between">
                     {/* Left Card */}
                     <div className="w-[50%]">
-                        <Image src={ProjectsImage} className="w-full mt-[-115px]"/>
+                        <Image 
+                            src={ProjectsImage} 
+                            className="w-full mt-[-115px]" 
+                            width={530} 
+                            height={530}
+                            alt="Guy writing in a blackboard"
+                        />
                     </div>
 
                     {/* Right Card */}
@@ -33,65 +80,43 @@ export default function ProjectsContent() {
                     {/* Projects Section*/}
                     <div className="mt-12 flex flex-wrap gap-3 items-start">
                         {/* Projects Cards*/}
-                        <div className="rounded-lg border w-[520px]">
-                            <div className="w-full">
-                                <Image src={LandingPage} className="object-cover"/>
-                            </div>
+                        <ProjectItem 
+                            image={projects.r_crypto.image}
+                            title={projects.r_crypto.title}
+                            technologies={projects.r_crypto.technologies}
+                            description={projects.r_crypto.description}
+                            url={projects.r_crypto.url}
+                            yearOfDevelopment={projects.r_crypto.yearOfDevelopment}
+                        />
 
-                            <div className="p-4">
-                                <h2 className="text-center font-semibold text-2xl">Lorem, ipsum.</h2>
-                                
-                                <h3 className="text-center mt-2 text-gray-500 text-xl">Lorem ipsum dolor sit amet.</h3>
+                        <ProjectItem
+                            image={projects.enterprise_task_manager.image}
+                            title={projects.enterprise_task_manager.title}
+                            technologies={projects.enterprise_task_manager.title}
+                            description={projects.enterprise_task_manager.description}
+                            url={projects.enterprise_task_manager.url}
+                            yearOfDevelopment={projects.enterprise_task_manager.yearOfDevelopment}
+                        />
 
-                                <h2 className="mt-2 text-2xl font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!</h2>
-                        
-                                <div className="flex justify-between mt-4">
-                                    <a href="" className="text-blue-500 text-xl">Visit</a>
-                                    <span className="text-xl">2024</span>
-                                </div>
-                            </div>
-                        </div>
+                        <ProjectItem
+                            image={projects.r_burger.image}
+                            title={projects.r_burger.title}
+                            technologies={projects.r_burger.title}
+                            description={projects.r_burger.description}
+                            url={projects.r_burger.url}
+                            yearOfDevelopment={projects.r_burger.yearOfDevelopment}
+                        />
 
-                        <div className="rounded-lg border w-[520px]">
-                            <div>
-                                <Image src={LandingPage} className="object-cover"/>
-                            </div>
-
-                            <div className="p-4">
-                                <h2 className="text-center font-semibold text-2xl">Lorem, ipsum.</h2>
-                                
-                                <h3 className="text-center mt-2 text-gray-500 text-xl">Lorem ipsum dolor sit amet.</h3>
-
-                                <h2 className="mt-2 text-2xl font-light">Lorem ipsum dolor sit.</h2>
-                        
-                                <div className="flex justify-between mt-4">
-                                    <a href="" className="text-blue-500 text-xl">Visit </a>
-                                    <span className="text-xl">2024</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="rounded-lg border w-[520px]">
-                            <div>
-                                <Image src={LandingPage} className="object-cover"/>
-                            </div>
-
-                            <div className="p-4">
-                                <h2 className="text-center font-semibold text-2xl">Lorem, ipsum.</h2>
-                                
-                                <h3 className="text-center mt-2 text-gray-500 text-xl">Lorem ipsum dolor sit amet.</h3>
-
-                                <h2 className="mt-2 text-2xl font-light">Lorem ipsum dolor sit.</h2>
-                        
-                                <div className="flex justify-between mt-4">
-                                    <a href="" className="text-blue-500 text-xl">Visit </a>
-                                    <span className="text-xl">2024</span>
-                                </div>
-                            </div>
-                        </div>
+                        <ProjectItem
+                            image={projects.r_money.image}
+                            title={projects.r_money.title}
+                            technologies={projects.r_money.title}
+                            description={projects.r_money.description}
+                            url={projects.r_money.url}
+                            yearOfDevelopment={projects.r_money.yearOfDevelopment}
+                        />
                     </div>
                 </div>
-
 
             </main>
         </div>
