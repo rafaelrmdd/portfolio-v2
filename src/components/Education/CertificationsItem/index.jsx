@@ -1,25 +1,39 @@
 import Image from "next/image"
 
-export default function CertificationsItem({image, duration, name, platformName, courses}) {
-
-    console.log('platformObject: ', courses)
+export default function CertificationsItem({image, duration, name, platformName, text}) {
 
     return (
         <div className="flex mt-16">
             {/* Platform Logo */}
             <div className="w-[20%] flex flex-col gap-y-2 justify-center items-center">
-                <Image src={image} className="w-24 h-16"/>
+                <Image 
+                    src={image}
+                    className="w-24 h-16"
+                    width={96} height={64}
+                    alt="Course Platform Logo"
+                />
 
                 <div>
                     <span className="font-semibold">{duration}</span>
                 </div>
             </div>
             <div className="w-[80%]">
-                <h2 className="text-2xl">{name}</h2>
-                <h2 className="text-lg">{platformName}</h2>
-                <h3 className="text-lg">● {courses.firstLine}</h3>
-                <h3 className="text-lg">● {courses.secondLine}</h3>
-                <h3 className="text-lg">● {courses.thirdLine}</h3>
+                <h2 className="text-2xl text-blue-900">{name}</h2>
+                <h2 className="text-lg text-blue-900" >{platformName}</h2>
+                <h3 className="text-lg text-indigo-700 mt-2">
+                    <span className="text-blue-900">● </span>
+                    {text.firstLine}
+                </h3>
+
+                <h3 className="text-lg text-indigo-700">
+                    <span className="text-blue-900">● </span>
+                    {text.secondLine}
+                </h3>
+
+                <h3 className="text-lg text-indigo-700">
+                    <span className="text-blue-900">● </span>
+                    {text.thirdLine}
+                </h3>
             </div>
         </div>
     )
