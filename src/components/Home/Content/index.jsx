@@ -122,27 +122,27 @@ export default function HomeContent() {
                             </div>
 
                             <div className="flex flex-col gap-y-4 mt-8">
-                                <h3 className="text-xl text-blue-500 ">
+                                <h3 className="text-xl text-blue-500">
                                     <span className="text-blue-900">● </span> 
                                     Especialista em desenvolvimento web full stack com foco em C# (.NET Core), criando APIs RESTful robustas utilizando Entity Framework e PostgreSQL;
                                 </h3>
 
-                                <h3 className="text-xl text-blue-500 ">
+                                <h3 className="text-xl text-blue-500">
                                     <span className="text-blue-900">● </span> 
                                     Construção de interfaces modernas e responsivas com React e Next.js, entregando experiências de usuário fluidas e performáticas;
                                 </h3>
 
-                                <h3 className="text-xl text-blue-500 ">
+                                <h3 className="text-xl text-blue-500">
                                     <span className="text-blue-900">● </span> 
                                     Desenvolvedor proativo que constantemente expande conhecimentos através de projetos pessoais e experimentação de novas tecnologias;
                                 </h3>
 
-                                <h3 className="text-xl text-blue-500 ">
+                                <h3 className="text-xl text-blue-500">
                                 <span className="text-blue-900">● </span> 
                                     Domínio em desenvolvimento de sistemas web, com ênfase em soluções escaláveis e arquiteturas modernas;
                                 </h3>
 
-                                <h3 className="text-xl text-blue-500 ">
+                                <h3 className="text-xl text-blue-500">
                                     <span className="text-blue-900">● </span> 
                                     Criação de aplicações end-to-end, integrando back-end robusto com front-end dinâmico e intuitivo.
                                 </h3>

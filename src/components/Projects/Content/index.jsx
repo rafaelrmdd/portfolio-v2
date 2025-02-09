@@ -14,7 +14,7 @@ export default function ProjectsContent() {
         enterprise_task_manager: {
             image: enterprise_task_manager,
             title: "Enterprise Task Manager",
-            technologies: "??? | ??? | ???",
+            technologies: "React | Next Js | Supabase",
             url: "https://enterprise-task-manager.netlify.app/",
             yearOfDevelopment: "2024",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!"
@@ -22,7 +22,7 @@ export default function ProjectsContent() {
         r_crypto: {
             image: r_crypto,
             title: "rCrypto",
-            technologies: "??? | ??? | ???",
+            technologies: "React | Styled Components",
             url: "https://rcrypto.netlify.app/",
             yearOfDevelopment: "2024",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!"
@@ -30,7 +30,7 @@ export default function ProjectsContent() {
         r_burger: {
             image: r_burger,
             title: "rBurger",
-            technologies: "??? | ??? | ???",
+            technologies: "React | Tailwindcss",
             url: "https://r-burger-shop.netlify.app/",
             yearOfDevelopment: "2024",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!"
@@ -38,7 +38,7 @@ export default function ProjectsContent() {
         r_money: {
             image: r_money,
             title: "Money Control",
-            technologies: "??? | ??? | ???",
+            technologies: "React | Styled Components",
             url: "https://controlmoneyy.netlify.app/",
             yearOfDevelopment: "2024",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aperiam!"
@@ -92,7 +92,7 @@ export default function ProjectsContent() {
                         <ProjectItem
                             image={projects.enterprise_task_manager.image}
                             title={projects.enterprise_task_manager.title}
-                            technologies={projects.enterprise_task_manager.title}
+                            technologies={projects.enterprise_task_manager.technologies}
                             description={projects.enterprise_task_manager.description}
                             url={projects.enterprise_task_manager.url}
                             yearOfDevelopment={projects.enterprise_task_manager.yearOfDevelopment}
@@ -101,7 +101,7 @@ export default function ProjectsContent() {
                         <ProjectItem
                             image={projects.r_burger.image}
                             title={projects.r_burger.title}
-                            technologies={projects.r_burger.title}
+                            technologies={projects.r_burger.technologies}
                             description={projects.r_burger.description}
                             url={projects.r_burger.url}
                             yearOfDevelopment={projects.r_burger.yearOfDevelopment}
@@ -110,7 +110,7 @@ export default function ProjectsContent() {
                         <ProjectItem
                             image={projects.r_money.image}
                             title={projects.r_money.title}
-                            technologies={projects.r_money.title}
+                            technologies={projects.r_money.technologies}
                             description={projects.r_money.description}
                             url={projects.r_money.url}
                             yearOfDevelopment={projects.r_money.yearOfDevelopment}
