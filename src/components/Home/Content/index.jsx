@@ -18,13 +18,16 @@ import { SiVite } from "react-icons/si";
 export default function HomeContent() {
 
     return (
-        <div className="px-36 bg-cyan-50 w-full h-full">
+        <div 
+            className="px-36 bg-cyan-50 w-full h-full 
+            max-sm:px-6"
+        >
             <Header />
 
             <main className="mt-20 pb-16">
-                <div className="flex">
+                <div className="flex max-sm:block">
                     {/* Left Card  */}
-                    <div className="w-[45%] flex flex-col gap-y-4">
+                    <div className="w-[45%] flex flex-col gap-y-4 max-sm:w-full max-sm:text-center">
                         <h1 className="text-5xl font-bold text-blue-900">Rafael Rodrigues</h1>
                         <h2 className="text-4xl font-semibold text-blue-900">Full Stack Development </h2>
                         <h3 className="text-xl font-semibold text-blue-500 leading-[45px]">
@@ -33,7 +36,7 @@ export default function HomeContent() {
                         </h3>
                         
                         {/* Redirect Icons */}
-                        <div className="flex gap-4 items-center">
+                        <div className="flex gap-4 items-center max-sm:justify-center">
                             <a 
                                 href="https://github.com/rafaelrmdd" 
                                 target="_blank" 
@@ -60,28 +63,32 @@ export default function HomeContent() {
                     </div>
 
                     {/* Right Card */}
-                    <div className="w-[55%]">
+                    <div className="w-[55%] max-sm:w-full max-sm:mt-[-100px]">
                         <Image 
                         src={ImagemTeste} 
                         alt="Guy sitting on a chair" 
-                        className="w-[650px] h-[650px] absolute top-[-50px] right-[65px]"
+                        className="w-[650px] h-[650px] absolute top-[-50px] right-[65px]
+                        max-sm:static max-sm:top-0 max-sm:right-0"
                     />
                     </div>
                 </div>
                 
-                <div className="w-full mt-36">
+                <div className="w-full mt-36 max-sm:mt-0">
                     <div className="flex flex-col items-center w-full">
                         <h1 className="text-5xl font-semibold text-blue-900">O que eu faço?</h1>
                     </div>
                     
-                    <div className="flex justify-between mt-24">
+                    <div 
+                        className="flex justify-between mt-24 
+                        max-sm:block max-sm:relative max-sm:mt-16"
+                    >
                         {/* Left Card */}
-                        <div className="w-[40%] flex justify-center">
+                        <div className="w-[40%] flex justify-center max-sm:w-full max-sm:absolute max-sm:bottom-[-600px]">
                             <Image src={WhatIDoCardImage} alt="Full Stack representation" className="object-scale-down "/>
                         </div>
 
                         {/* Right Card */}
-                        <div className="w-[55%]">
+                        <div className="w-[55%] max-sm:w-full">
                             <h2 className="text-4xl font-semibold text-blue-900 text-center">Desenvolvimento Fullstack</h2>
 
                             {/* Icons */}
