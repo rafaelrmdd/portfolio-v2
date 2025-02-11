@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import GraduationImage from "@/assets/education-image.png"
+import EducationMainImage from "@/assets/education-image.png"
 import UdemyLogoImage from "@/assets/udemy-logo.png"
 import DioLogoImage from "@/assets/logo.png"
 import DegreeItem from "../DegreeItem";
@@ -45,28 +45,32 @@ export default function Content() {
     }
 
     return (
-        <div className="px-36 bg-cyan-50 w-full h-full">
+        <div className="px-36 bg-cyan-50 w-full h-full max-sm:px-6 max-md:px-6 max-lg:px-6">
             <Header />
 
             <main className="mt-16 pb-16">
-                <div className="flex justify-between h-[500px]">
-                    <div className="w-[50%] ">
+                <div 
+                    className="flex justify-between h-[500px] max-sm:block max-sm:relative
+                    max-md:block max-md:relative max-lg:block max-lg:relative"
+                >
+                    <div className="w-[50%] max-sm:w-full max-md:w-full max-lg:w-full">
                         <Image 
-                            src={GraduationImage} 
-                            className="object-fill  w-4/5" 
+                            src={EducationMainImage} 
                             width={424} 
                             height={424} 
                             alt="Four degree hats flying"
+                            className="object-fill w-4/5 max-sm:absolute max-sm:bottom-[-150px] max-sm:right-[-3px]
+                            max-md:absolute max-md:bottom-[-150px] max-md:right-[60px] max-lg:absolute max-lg:bottom-[-150px] max-lg:right-[190px] max-lg:size-[500px]"
                         />
                     </div>
 
-                    <div className="w-[50%] flex justify-center items-center">
+                    <div className="w-[50%] flex justify-center items-center max-sm:w-full max-md:w-full max-lg:w-full">
                         <h1 className="text-center text-blue-900 text-6xl font-semibold">Formação e Certificações</h1>
                     </div>
                 </div>
 
                 {/* Degree */}
-                <div>
+                <div className="max-sm:mt-52 max-md:mt-52 max-lg:mt-52">
                     <h2 className="text-5xl text-center text-blue-900">Minha Formação</h2>
                     <DegreeItem />
                 </div>

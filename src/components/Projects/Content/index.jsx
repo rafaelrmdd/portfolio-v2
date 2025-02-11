@@ -7,7 +7,6 @@ import r_burger from "@/assets/r-burger.jpeg"
 import r_money from "@/assets/r-money.jpeg"
 import ProjectItem from "../ProjectItem";
 
-
 export default function ProjectsContent() {
 
     const projects = {
@@ -46,26 +45,30 @@ export default function ProjectsContent() {
     }
 
     return (
-        <div className="px-36 bg-cyan-50 w-full h-full">
+        <div className="px-36 bg-cyan-50 w-full h-full max-sm:px-6 max-md:px-6 max-lg:px-6">
             <Header />
 
             <main className="mt-16">
-                <div className="flex justify-between">
+                <div 
+                    className="flex justify-between max-sm:justify-center max-sm:block max-md:justify-center max-md:block
+                    max-lg:justify-center max-lg:block"
+                >
                     {/* Left Card */}
                     <div className="w-[50%]">
                         <Image 
                             src={ProjectsImage} 
-                            className="w-full mt-[-115px]" 
                             width={530} 
                             height={530}
                             alt="Guy writing in a blackboard"
+                            className="w-full mt-[-115px] max-sm:absolute max-sm:bottom-[-400px]
+                            max-md:absolute max-md:bottom-[-520px] max-lg:absolute max-lg:bottom-[-620px]" 
                         />
                     </div>
 
                     {/* Right Card */}
-                    <div className="w-[50%] mt-16 flex flex-col items-center">
+                    <div className="w-[50%] mt-16 flex flex-col items-center max-sm:w-full max-md:w-full max-lg:w-full">
                         <div>
-                            <h1 className="text-center text-blue-950 text-6xl font-semibold">Projects</h1>
+                            <h1 className="text-center text-blue-950 text-6xl font-semibold">Projetos</h1>
                         </div>
                         
                         <div className="mt-6 w-[85%]">
@@ -74,11 +77,14 @@ export default function ProjectsContent() {
                     </div>
                 </div>
 
-                <div className="mt-14 mb-14">
-                    <h2 className="text-center text-blue-950 text-6xl font-semibold">My Projects</h2>
+                <div className="mt-14 mb-14 max-sm:mt-[470px] max-md:mt-[570px] max-lg:mt-[670px]">
+                    <h2 className="text-center text-blue-950 text-6xl font-semibold">Meus Projetos</h2>
 
                     {/* Projects Section*/}
-                    <div className="mt-12 flex flex-wrap gap-3 items-start">
+                    <div 
+                        className="mt-12 flex flex-wrap gap-3 items-start max-sm:flex max-sm:justify-center
+                        max-md:flex max-md:justify-center max-lg:flex max-lg:justify-center"
+                    >
                         {/* Projects Cards*/}
                         <ProjectItem 
                             image={projects.r_crypto.image}

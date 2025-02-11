@@ -20,7 +20,7 @@ export default function DegreeItem() {
                 </div>
             </div>
 
-            <div className="w-[80%]">
+            <div className="w-[80%] max-sm:w-[70%] max-sm:ml-auto">
                 <h2 className="text-2xl text-indigo-800">Análise e Desenvolvimento de Sistemas</h2>
 
                 <h2 className="text-lg text-indigo-800">Universidade Paulista (UNIP)</h2>
