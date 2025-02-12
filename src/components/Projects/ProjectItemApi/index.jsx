@@ -1,13 +1,13 @@
 import Image from "next/image"
 
-export default function ProjectItem({image, title, technologies, description, url, yearOfDevelopment}) {
+export default function ProjectItemApi({image, title, technologies, description, url, yearOfDevelopment}) {
     return (
         <div className="rounded-lg border w-[520px]">
-            <div>
+            <div className="flex justify-center">
                 <Image 
                     src={image} 
-                    width={518} 
-                    height={241.5}
+                    width={200} 
+                    height={100}
                     alt="Project representation"
                 />
             </div>

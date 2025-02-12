@@ -45,7 +45,7 @@ export default function Content() {
     }
 
     return (
-        <div className="px-36 bg-cyan-50 w-full h-full max-sm:px-6 max-md:px-6 max-lg:px-6">
+        <div className="px-36 w-full h-full max-sm:px-6 max-md:px-6 max-lg:px-6">
             <Header />
 
             <main className="mt-16 pb-16">

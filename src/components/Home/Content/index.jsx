@@ -19,7 +19,7 @@ export default function HomeContent() {
 
     return (
         <div 
-            className="px-36 bg-cyan-50 w-full h-full 
+            className="px-36 w-full h-full 
             max-sm:px-6 max-md:px-6 max-lg:px-6"
         >
             <Header />
@@ -33,7 +33,7 @@ export default function HomeContent() {
                     >
                         <h1 className="text-5xl font-bold text-blue-900">Rafael Rodrigues</h1>
                         <h2 className="text-4xl font-semibold text-blue-900">Full Stack Development </h2>
-                        <h3 className="text-xl font-semibold text-blue-500 leading-[45px]">
+                        <h3 className="text-xl font-semibold text-[#7f8daa] leading-[45px]">
                             A results-driven software engineer with expertise in full-stack development
                             of high-quality user-centric solutions in agile environments.
                         </h3>
@@ -83,12 +83,12 @@ export default function HomeContent() {
                     
                     <div 
                         className="flex justify-between mt-24 
-                        max-sm:block max-sm:relative max-sm:mt-16 max-md:block max-md:relative max-md:mt-16 max-lg:block max-lg:relative max-lg:mt-16"
+                        max-sm:block max-sm:relative max-md:block max-md:relative max-md:mt-16 max-lg:block max-lg:relative max-lg:mt-16"
                     >
                         {/* Left Card */}
                         <div 
-                            className="w-[40%] flex justify-center max-sm:w-full max-sm:absolute max-sm:bottom-[-600px]
-                            max-md:w-full max-md:absolute max-md:bottom-[-600px] max-lg:w-full max-lg:absolute max-lg:bottom-[-600px]"
+                            className="w-[40%] flex justify-center max-sm:w-full max-sm:absolute max-sm:bottom-[-500px]
+                            max-md:w-full max-md:absolute max-md:bottom-[-600px] max-md:right-[10px] max-lg:w-3/4 max-lg:absolute max-lg:bottom-[-620px] max-lg:right-[120px]"
                         >
                             <Image src={WhatIDoCardImage} alt="Full Stack representation" className="object-scale-down "/>
                         </div>
@@ -135,27 +135,27 @@ export default function HomeContent() {
                             </div>
 
                             <div className="flex flex-col gap-y-4 mt-8">
-                                <h3 className="text-xl text-blue-500">
+                                <h3 className="text-xl text-[#7f8daa]">
                                     <span className="text-blue-900">● </span> 
                                     Especialista em desenvolvimento web full stack com foco em C# (.NET Core), criando APIs RESTful robustas utilizando Entity Framework e PostgreSQL;
                                 </h3>
 
-                                <h3 className="text-xl text-blue-500">
+                                <h3 className="text-xl text-[#7f8daa]">
                                     <span className="text-blue-900">● </span> 
                                     Construção de interfaces modernas e responsivas com React e Next.js, entregando experiências de usuário fluidas e performáticas;
                                 </h3>
 
-                                <h3 className="text-xl text-blue-500">
+                                <h3 className="text-xl text-[#7f8daa]">
                                     <span className="text-blue-900">● </span> 
                                     Desenvolvedor proativo que constantemente expande conhecimentos através de projetos pessoais e experimentação de novas tecnologias;
                                 </h3>
 
-                                <h3 className="text-xl text-blue-500">
+                                <h3 className="text-xl text-[#7f8daa]">
                                 <span className="text-blue-900">● </span> 
                                     Domínio em desenvolvimento de sistemas web, com ênfase em soluções escaláveis e arquiteturas modernas;
                                 </h3>
 
-                                <h3 className="text-xl text-blue-500">
+                                <h3 className="text-xl text-[#7f8daa]">
                                     <span className="text-blue-900">● </span> 
                                     Criação de aplicações end-to-end, integrando back-end robusto com front-end dinâmico e intuitivo.
                                 </h3>
