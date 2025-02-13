@@ -1,3 +1,7 @@
+import LogoImage from "@/assets/letter-r.png"
+import Image from "next/image";
+import Link from "next/link";
+
 import { IoMdDownload } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
@@ -22,7 +26,8 @@ export default function Header() {
                     className="max-sm:w-full max-sm:text-center max-md:w-full max-md:text-center
                     max-lg:w-full max-lg:text-center"
                 >
-                    Logo
+
+                    <Image src={LogoImage} width={40} height={40} alt=""/>
                 </div>
 
                 <button className="hidden max-sm:block max-md:block max-lg:block">
@@ -34,34 +39,34 @@ export default function Header() {
             </div>
 
             <nav className="flex gap-8 max-sm:gap-2 max-sm:hidden max-md:gap-2 max-md:hidden max-lg:gap-2 max-lg:hidden">
-                <a 
+                <Link
                     href="/"
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
                     Home
-                </a>
+                </Link>
 
-                <a 
+                <Link 
                     href="/projects" 
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
                     Projects
-                </a>
+                </Link>
 
-                <a 
+                <Link 
                     href="/education" 
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
                     Education
-                </a>
+                </Link>
 
-                <a 
+                <Link 
                     href={contactUrl}
                     target="_blank"
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
                     Contact
-                </a>
+                </Link>
             </nav>
 
             {/* Only on mobile */}
@@ -71,28 +76,29 @@ export default function Header() {
                     : "hidden max-sm:flex max-sm:flex-col max-sm:items-center max-sm:mt-6 max-md:flex max-md:flex-col max-md:items-center max-md:mt-6 max-lg:flex max-lg:flex-col max-lg:items-center max-lg:mt-6"
                 }
             >
-                <a 
+                <Link 
                     href="/"
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
                     Home
-                </a>
+                </Link>
 
-                <a 
+                <Link 
                     href="/projects" 
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
                     Projects
-                </a>
+                </Link>
 
-                <a 
+
+                <Link
                     href="/education" 
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
                     Education
-                </a>
+                </Link>
 
-                <a 
+                <a
                     href={contactUrl}
                     target="_blank"
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"

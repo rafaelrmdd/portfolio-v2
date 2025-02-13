@@ -18,21 +18,18 @@ export default function CertificationsItem({image, duration, name, platformName,
                 </div>
             </div>
             <div className="w-[80%] max-sm:w-[70%] max-sm:ml-auto">
-                <h2 className="text-2xl text-indigo-800">{name}</h2>
-                <h2 className="text-lg text-indigo-800" >{platformName}</h2>
+                <h2 className="text-2xl text-gray-900">{name}</h2>
+                <h2 className="text-lg text-gray-900" >{platformName}</h2>
                 <h3 className="text-lg text-[#7f8daa] mt-2">
-                    <span className="text-blue-900">● </span>
-                    {text.firstLine}
+                    💡{text.firstLine}
                 </h3>
 
                 <h3 className="text-lg text-[#7f8daa]">
-                    <span className="text-blue-900">● </span>
-                    {text.secondLine}
+                    💡{text.secondLine}
                 </h3>
 
                 <h3 className="text-lg text-[#7f8daa]">
-                    <span className="text-blue-900">● </span>
-                    {text.thirdLine}
+                    💡{text.thirdLine}
                 </h3>
             </div>
         </div>

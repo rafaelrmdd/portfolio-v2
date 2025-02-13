@@ -21,22 +21,19 @@ export default function DegreeItem() {
             </div>
 
             <div className="w-[80%] max-sm:w-[70%] max-sm:ml-auto">
-                <h2 className="text-2xl text-indigo-800">Análise e Desenvolvimento de Sistemas</h2>
+                <h2 className="text-2xl text-gray-900">Análise e Desenvolvimento de Sistemas</h2>
 
-                <h2 className="text-lg text-indigo-800">Universidade Paulista (UNIP)</h2>
+                <h2 className="text-lg text-gray-900">Universidade Paulista (UNIP)</h2>
                 <h3 className="text-lg text-[#7f8daa] mt-2">
-                    <span className="text-blue-900">● </span>
-                    Graduação em Análise e Desenvolvimento de Sistemas com ênfase em desenvolvimento full-stack e resolução de problemas complexos de software
+                    🎓Graduação em Análise e Desenvolvimento de Sistemas com ênfase em desenvolvimento full-stack e resolução de problemas complexos de software
                 </h3>
 
                 <h3 className="text-lg text-[#7f8daa]">
-                    <span className="text-blue-900">● </span>
-                    Experiência prática em projetos acadêmicos utilizando tecnologias modernas como React, Node.js e metodologias ágeis Scrum
+                    🎓Experiência prática em projetos acadêmicos utilizando tecnologias modernas como React, Node.js e metodologias ágeis Scrum
                 </h3>
 
                 <h3 className="text-lg text-[#7f8daa]">
-                    <span className="text-blue-900">● </span>
-                    Domínio em desenvolvimento de sistemas web, mobile e cloud, com foco em criar soluções inovadoras e eficientes para desafios tecnológicos
+                    🎓Domínio em desenvolvimento de sistemas web, mobile e cloud, com foco em criar soluções inovadoras e eficientes para desafios tecnológicos
                 </h3>
             </div>
         </div>

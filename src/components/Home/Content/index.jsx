@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
-import ImagemTeste from "@/assets/card-image.png"
-import WhatIDoCardImage from "@/assets/what-i-do-card-image.png"
+import EducationMainImage from "@/assets/home-main.png"
+import WhatIDoCardImage from "@/assets/what-i-do-card.png"
 import Image from "next/image";
 
 import { FaGithub, FaLinkedin, FaHtml5, FaCss3,  } from "react-icons/fa";
@@ -31,8 +31,8 @@ export default function HomeContent() {
                         className="w-[45%] flex flex-col gap-y-4
                         max-sm:w-full max-sm:text-center max-md:w-full max-md:text-center max-lg:w-full max-lg:text-center"
                     >
-                        <h1 className="text-5xl font-bold text-blue-900">Rafael Rodrigues</h1>
-                        <h2 className="text-4xl font-semibold text-blue-900">Full Stack Development </h2>
+                        <h1 className="text-5xl font-bold text-blue-950">Rafael Rodrigues</h1>
+                        <h2 className="text-4xl font-semibold text-blue-950">Full Stack Development </h2>
                         <h3 className="text-xl font-semibold text-[#7f8daa] leading-[45px]">
                             A results-driven software engineer with expertise in full-stack development
                             of high-quality user-centric solutions in agile environments.
@@ -68,7 +68,7 @@ export default function HomeContent() {
                     {/* Right Card */}
                     <div className="w-[55%] max-sm:w-full max-sm:mt-[-100px] max-md:w-full max-md:mt-[-100px] max-lg:w-full max-lg:mt-[-100px]">
                         <Image 
-                        src={ImagemTeste} 
+                        src={EducationMainImage} 
                         alt="Guy sitting on a chair" 
                         className="w-[650px] h-[650px] absolute top-[-50px] right-[65px]
                         max-sm:static max-sm:top-0 max-sm:right-0 max-md:static max-md:top-0 max-md:right-0 max-lg:static max-lg:top-0 max-lg:right-0"
@@ -78,7 +78,7 @@ export default function HomeContent() {
                 
                 <div className="w-full mt-36 max-sm:mt-0 max-md:mt-0 max-lg:mt-0">
                     <div className="flex flex-col items-center w-full">
-                        <h1 className="text-5xl font-semibold text-blue-900">O que eu faço?</h1>
+                        <h1 className="text-5xl font-semibold text-blue-950">O que eu faço?</h1>
                     </div>
                     
                     <div 
@@ -95,7 +95,7 @@ export default function HomeContent() {
 
                         {/* Right Card */}
                         <div className="w-[55%] max-sm:w-full max-md:w-full max-lg:w-full">
-                            <h2 className="text-4xl font-semibold text-blue-900 text-center">Desenvolvimento Fullstack</h2>
+                            <h2 className="text-4xl font-semibold text-blue-950 text-center">Desenvolvimento Fullstack</h2>
 
                             {/* Icons */}
                             <div className="mt-6 flex flex-wrap gap-x-4 gap-y-4 items-center justify-center">
@@ -136,28 +136,23 @@ export default function HomeContent() {
 
                             <div className="flex flex-col gap-y-4 mt-8">
                                 <h3 className="text-xl text-[#7f8daa]">
-                                    <span className="text-blue-900">● </span> 
-                                    Especialista em desenvolvimento web full stack com foco em C# (.NET Core), criando APIs RESTful robustas utilizando Entity Framework e PostgreSQL;
+                                    ⭐Especialista em desenvolvimento web full stack com foco em C# (.NET Core), criando APIs RESTful robustas utilizando Entity Framework e PostgreSQL;
+                                </h3>
+
+                                <h3 className="text-xl text-[#7f8daa]"> 
+                                    ⭐Construção de interfaces modernas e responsivas com React e Next.js, entregando experiências de usuário fluidas e performáticas;
                                 </h3>
 
                                 <h3 className="text-xl text-[#7f8daa]">
-                                    <span className="text-blue-900">● </span> 
-                                    Construção de interfaces modernas e responsivas com React e Next.js, entregando experiências de usuário fluidas e performáticas;
+                                    ⭐Desenvolvedor proativo que constantemente expande conhecimentos através de projetos pessoais e experimentação de novas tecnologias;
                                 </h3>
 
                                 <h3 className="text-xl text-[#7f8daa]">
-                                    <span className="text-blue-900">● </span> 
-                                    Desenvolvedor proativo que constantemente expande conhecimentos através de projetos pessoais e experimentação de novas tecnologias;
+                                    ⭐Domínio em desenvolvimento de sistemas web, com ênfase em soluções escaláveis e arquiteturas modernas;
                                 </h3>
 
                                 <h3 className="text-xl text-[#7f8daa]">
-                                <span className="text-blue-900">● </span> 
-                                    Domínio em desenvolvimento de sistemas web, com ênfase em soluções escaláveis e arquiteturas modernas;
-                                </h3>
-
-                                <h3 className="text-xl text-[#7f8daa]">
-                                    <span className="text-blue-900">● </span> 
-                                    Criação de aplicações end-to-end, integrando back-end robusto com front-end dinâmico e intuitivo.
+                                    ⭐Criação de aplicações end-to-end, integrando back-end robusto com front-end dinâmico e intuitivo.
                                 </h3>
                             </div>      
                         </div>
