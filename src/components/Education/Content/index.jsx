@@ -1,12 +1,12 @@
 import Header from "@/components/Header";
 import EducationMainImage from "@/assets/education-main.png"
-import UdemyLogoImage from "@/assets/udemy-logo.png"
-import DioLogoImage from "@/assets/logo.png"
 import DegreeItem from "../DegreeItem";
 import Image from "next/image";
 import CertificationsItem from "../CertificationsItem";
 
 export default function Content({ courses }) {
+
+    console.log("courses: ", courses)
 
     return (
         <div className="px-36 w-full h-full max-sm:px-6 max-md:px-6 max-lg:px-6">
