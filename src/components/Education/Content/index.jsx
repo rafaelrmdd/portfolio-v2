@@ -53,7 +53,7 @@ export default function Content({ courses }) {
                     />
 
                     <CertificationsItem 
-                        image="/assets/udemy-logo.png"
+                        image={courses.web_moderno.image}
                         duration={courses.web_moderno.duration}
                         name={courses.web_moderno.name}
                         platformName={courses.web_moderno.platformName}
@@ -61,7 +61,7 @@ export default function Content({ courses }) {
                     />
 
                     <CertificationsItem 
-                        image="/assets/logo.png"
+                        image={courses.xp_fullstack.image}
                         duration={courses.xp_fullstack.duration}
                         name={courses.xp_fullstack.name}
                         platformName={courses.xp_fullstack.platformName}

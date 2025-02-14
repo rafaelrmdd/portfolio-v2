@@ -1,6 +1,6 @@
 import Content from "@/components/Education/Content";
 import UdemyLogoImage from "@/assets/udemy-logo.png"
-import DioLogoImage from "@/assets/logo.png"
+import DioLogoImage from "@/assets/dio-logo.png"
 
 export default function Education({ courses }) {
     return (

@@ -50,14 +50,14 @@ export default function Header() {
                     href="/projects" 
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
-                    Projects
+                    Projetos
                 </Link>
 
                 <Link 
                     href="/education" 
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
-                    Education
+                    Educação
                 </Link>
 
                 <Link 
@@ -65,7 +65,7 @@ export default function Header() {
                     target="_blank"
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
-                    Contact
+                    Contato
                 </Link>
             </nav>
 
@@ -87,7 +87,7 @@ export default function Header() {
                     href="/projects" 
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
-                    Projects
+                    Projetos
                 </Link>
 
 
@@ -95,7 +95,7 @@ export default function Header() {
                     href="/education" 
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
-                    Education
+                    Educação
                 </Link>
 
                 <a
@@ -103,7 +103,7 @@ export default function Header() {
                     target="_blank"
                     className="font-medium text-blue-900 py-2 px-4 hover:bg-blue-300 rounded-md duration-300"
                 >
-                    Contact
+                    Contato
                 </a>
 
                 <a
