@@ -1,11 +1,6 @@
 import Header from "@/components/Header";
 import Image from "next/image";
 import ProjectsImage from "@/assets/projects.png"
-import enterprise_task_manager from "@/assets/enterprise-task-management-landing-page.jpeg"
-import r_crypto from "@/assets/r-crypto.jpeg"
-import r_burger from "@/assets/r-burger.jpeg"
-import r_money from "@/assets/r-money.jpeg"
-import apiImage from "@/assets/api.png"
 import ProjectItem from "../ProjectItem";
 import ProjectItemApi from "../ProjectItemApi";
 
