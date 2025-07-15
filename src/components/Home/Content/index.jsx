@@ -32,10 +32,11 @@ export default function HomeContent() {
                         max-sm:w-full max-sm:text-center max-md:w-full max-md:text-center max-lg:w-full max-lg:text-center"
                     >
                         <h1 className="text-5xl font-bold text-blue-950">Rafael Rodrigues</h1>
-                        <h2 className="text-4xl font-semibold text-blue-950">Full Stack Development </h2>
+                        <h2 className="text-4xl font-semibold text-blue-950">Desenvolvimento Full Stack </h2>
                         <h3 className="text-xl font-semibold text-[#7f8daa] leading-[45px]">
-                            A results-driven software engineer with expertise in full-stack development
-                            of high-quality user-centric solutions in agile environments.
+                            Desenvolvedor full-stack apaixonado por criar soluções inovadoras e centradas 
+                            no usuário. Focado em entregar código limpo, escalável e que gera 
+                            impacto real nos negócios.
                         </h3>
                         
                         {/* Redirect Icons */}
