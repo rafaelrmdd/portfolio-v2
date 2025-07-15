@@ -107,8 +107,8 @@ export default function Header() {
                 </a>
 
                 <a
-                    href="/Currículo FS.pdf"
-                    download="Currículo Rafael R"
+                    href="/Currículo React CSharp.pdf"
+                    download="Currículo Rafael R.pdf"
                     className="flex items-center gap-4 mt-2 border border-blue-900 rounded-lg px-4 py-2 text-blue-900
                     hover:bg-blue-900 hover:text-white duration-300 "
                 >
@@ -118,7 +118,7 @@ export default function Header() {
             </nav>
 
             <a
-                href="/Currículo FS.pdf"
+                href="/Currículo React CSharp.pdf"
                 download="Currículo Rafael R"
                 className="flex items-center gap-4 border border-blue-900 rounded-lg px-4 py-2 text-blue-900
                 hover:bg-blue-900 hover:text-white duration-300 max-sm:hidden max-md:hidden max-lg:hidden"
