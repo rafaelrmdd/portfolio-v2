@@ -48,6 +48,15 @@ export default function ProjectsContent({ projects }) {
                         max-md:flex max-md:justify-center max-lg:flex max-lg:justify-center"
                     >
                         {/* Projects Cards*/}
+                        <ProjectItem
+                            image={projects.ecommerce.image}
+                            title={projects.ecommerce.title}
+                            technologies={projects.ecommerce.technologies}
+                            description={projects.ecommerce.description}
+                            url={projects.ecommerce.url}
+                            yearOfDevelopment={projects.ecommerce.yearOfDevelopment}
+                        />
+
                         <ProjectItem 
                             image={projects.r_crypto.image}
                             title={projects.r_crypto.title}
@@ -83,6 +92,7 @@ export default function ProjectsContent({ projects }) {
                             url={projects.r_money.url}
                             yearOfDevelopment={projects.r_money.yearOfDevelopment}
                         />
+
 
                         <ProjectItemApi
                             image={projects.enterprise_task_manager_api.image}

@@ -3,6 +3,7 @@ import enterprise_task_manager from "@/assets/enterprise-task-management-landing
 import r_crypto from "@/assets/r-crypto.jpeg"
 import r_burger from "@/assets/r-burger.jpeg"
 import r_money from "@/assets/r-money.jpeg"
+import ecommerce from "@/assets/ecommerce.png"
 import apiImage from "@/assets/api.png"
 
 export default function Projects({ projects }) {
@@ -16,6 +17,14 @@ export default function Projects({ projects }) {
 export async function getStaticProps() {
 
     const projects = {
+        ecommerce: {
+            image: ecommerce,
+            title: "Ecommerce | Reifferce",
+            technologies: "React | Next.Js | Typescript | Tailwindcss | Axios | ",
+            url: "https://github.com/rafaelrmdd/e-commerce",
+            yearOfDevelopment: "2025",
+            description: "E-commerce com sistema de autenticação utilizando refresh tokens e JWT desenvolvido para fins estudantis. Durante o desenvolvimento desse projeto, enfrentei diversos bugs e problemas no código, onde aprendi diversos conceitos e padrões de arquitetura novos e melhorei meu pensamento analítico."
+        },
         enterprise_task_manager: {
             image: enterprise_task_manager,
             title: "Enterprise Task Manager",
